@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MengZe's website</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="main">
+		<div class="control-bar">
+			<p id="web-title"> MengZe's website </p>
+			<!-- <img src="assets\cross.png" id="close-button" onclick=""> -->
+		</div>
+
+		<div class="tool-bar">
+			<img src="assets\back-button.png" id="back-button">
+			<img src="assets\forward-button.png" id="forward-button">
+			<button id="page-indicator" disabled> Home </button>
+		</div>
+
+		<div class="content-container">
+			<div class="title-container">
+				<li class="title-container-list">
+					<ul class="title-container-item">Recent</ul>
+					<ul class="title-container-item">Home</ul>
+					<ul class="title-container-item">Education</ul>
+					<ul class="title-container-item">Project</ul>
+					<ul class="title-container-item">Blog</ul>
+					<ul class="title-container-item">Resume</ul>
+				</li>
+			</div>
+
+			<iframe class="info-container" src="pages\home.html"></iframe>
+		</div>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+</html>
