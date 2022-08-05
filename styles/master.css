@@ -1,0 +1,6 @@
+@font-face { font-family: Ubuntu; src: url('assets/font/Ubuntu-Regular.ttf'); } 
+
+* {
+    font-family: Ubuntu;
+    user-select: none;
+}

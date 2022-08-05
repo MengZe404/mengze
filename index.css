@@ -1,9 +1,6 @@
-@font-face { font-family: Ubuntu; src: url('assets/font/Ubuntu-Regular.ttf'); } 
-
 body {
     /* background-color: rgb(101, 19, 106); */
     background-image: linear-gradient(to right, rgb(108, 34, 99), rgb(191, 66, 49));
-    font-family: Ubuntu;
 }
 
 .main {
@@ -17,7 +14,7 @@ body {
 
 /*  */
 
-.control-bar {
+.controlbar {
     width: 80vw;
     height: 4vh;
     border-top-left-radius: 5px;
@@ -44,7 +41,7 @@ body {
 
 /*  */
 
-.tool-bar {
+.toolbar {
     width: 80vw;
     height: 5.5vh;
 
@@ -123,21 +120,30 @@ body {
 
 .title-container-item {
     padding: 10px;
-    padding-left: 40px;
     margin: 0px;
     font-size: 0.9em;
     font-weight: 550;
     cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .title-container-item:first-child {
     padding: 1.8vh 10px;
-    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
 }
 
 .title-container-item:hover {
     background-image: linear-gradient(90deg, rgb(244, 128, 87), rgb(238, 125, 72));
     color: rgb(255, 255, 255);
+}
+
+.title-icon {
+    min-width: 20px;
+    padding-right: 1vw;
+    padding-left: 0.3vw;
 }
 
 .info-container {

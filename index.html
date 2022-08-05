@@ -5,34 +5,54 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MengZe's website</title>
+	<!-- <link rel="stylesheet" type="text/css" href="styles\fontawesome.min.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="styles/master.css">
 </head>
 <body>
 	<div class="main">
-		<div class="control-bar">
+		<div class="controlbar">
 			<p id="web-title"> MengZe's website </p>
-			<!-- <img src="assets\cross.png" id="close-button" onclick=""> -->
 		</div>
 
-		<div class="tool-bar">
-			<img src="assets\back-button.png" id="back-button">
-			<img src="assets\forward-button.png" id="forward-button">
+		<div class="toolbar">
+			<img src="assets/icons/back-button.png" id="back-button">
+			<img src="assets/icons/forward-button.png" id="forward-button">
 			<button id="page-indicator" disabled> Home </button>
 		</div>
 
 		<div class="content-container">
 			<div class="title-container">
 				<li class="title-container-list">
-					<ul class="title-container-item">Recent</ul>
-					<ul class="title-container-item">Home</ul>
-					<ul class="title-container-item">Education</ul>
-					<ul class="title-container-item">Project</ul>
-					<ul class="title-container-item">Blog</ul>
-					<ul class="title-container-item">Resume</ul>
+					<ul class="title-container-item">
+						<i class="fa fa-clock-o title-icon" style="font-size: 2.4vh;"></i>
+						Recent
+					</ul>
+					<ul class="title-container-item">
+						<i class="fa fa-home title-icon" style="font-size: 2.4vh;"></i>
+						Home
+					</ul>
+					<ul class="title-container-item">
+						<i class="fa fa-graduation-cap title-icon" style="font-size: 2.1vh;"></i>
+						Education
+					</ul>
+					<ul class="title-container-item">
+						<i class="fa fa-bar-chart title-icon" style="font-size: 2.1vh;"></i>
+						Project
+					</ul>
+					<ul class="title-container-item">
+						<i class="fa fa-comments title-icon" style="font-size: 2.1vh;"></i>
+						Blog
+					</ul>
+					<ul class="title-container-item">
+						<i class="fa fa-file-text title-icon" style="font-size: 2.1vh;"></i>
+						Resume
+					</ul>
 				</li>
 			</div>
 
-			<iframe class="info-container" src="pages\home.html"></iframe>
+			<iframe class="info-container" src="pages/education.html"></iframe>
 		</div>
 	</div>
 </body>

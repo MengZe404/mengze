@@ -3,7 +3,8 @@ localStorage.setItem("page", "")
 
 
 $(document).ready(function() {
-    $(".info-container").attr("src", "pages\\home.html");
+    $(".info-container").attr("src", "pages\\education.html");
+    $("#page-indicator").text("Education");
 })
 
 
